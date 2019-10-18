@@ -1,0 +1,46 @@
+{
+  "name": "roboshop",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/crypto-js": "^3.1.43",
+    "@types/entities": "^1.1.0",
+    "@types/jest": "23.3.12",
+    "@types/node": "10.12.18",
+    "@types/react": "16.7.20",
+    "@types/react-addons-update": "^0.14.20",
+    "@types/react-dom": "16.0.11",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/react-router-hash-link": "^1.2.0",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.4",
+    "firebase": "^5.7.0",
+    "firebase-admin": "^6.5.0",
+    "html-entities": "^1.2.1",
+    "react": "^16.8.3",
+    "react-addons-update": "^15.6.2",
+    "react-dom": "^16.8.3",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.1",
+    "react-scripts": "2.1.3",
+    "simple-crypto-js": "^2.0.2",
+    "typescript": "3.2.2",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html  --public-url ./ --out-dir build/output --no-source-maps"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
