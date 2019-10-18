@@ -8,7 +8,7 @@
    
    ***:heavy_check_mark: FireBase***
 
-**:link:  [Link(Heroku)](https://expressjs-roboshop.herokuapp.com/)**
+**:link:  [Link](https://react-roboshop.000webhostapp.com)**
 
 ***Screenshot:***
 
